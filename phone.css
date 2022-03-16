@@ -1,217 +1,219 @@
 /* CSS reset */
 
-body,html {
+body, html {
     overflow-x: hidden;
 }
 
 /* navigation */
 
-#navbar{
-    flex-direction:column;
-    border-bottom-left-radius:13px;
-    border-bottom-right-radius:13px;
+#navbar {
+    flex-direction: column;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
 }
 
-#navbar ul{
-    position:relative;
-    left:-5px;
-    top:-20px;
+#navbar ul {
+    position: relative;
+    left: -5px;
+    top: -20px;
 }
 
-#navbar ul li a{
-padding-left:0;
-font-size:15px;
+#navbar ul li a {
+    padding-left: 0;
+    font-size: 15px;
 }
 
-#navbar img{
-    position:relative;
-    left:-20px;
-    transform:scale(0.8);
+#navbar img {
+    position: relative;
+    left: -20px;
+    transform: scale(0.8);
 }
 
 /* home */
 
-#home{
-height:200px;
+#home {
+    height: 200px;
 }
 
-#home::before{
-    height:477px;
+#home::before {
+    height: 477px;
 }
 
-#home h1{
-   font-size:21px;
-   padding:50px 0px 0px 0px;
-   text-align: center;
+#home h1 {
+    font-size: 21px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
 }
 
-#home p{
-    display:block;
-   position:relative;
-   text-align:center;
-   font-size:15px;
-   padding-right:50px;
+#home p {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    padding-right: 50px;
 }
 
-#home button{
-    font-size:14px;
-    width:125px;
-    display:block;
-    margin:auto;
+#home button {
+    font-size: 14px;
+    width: 125px;
+    display: block;
+    margin: auto;
 }
 
 /* services */
 
-#services-container::before{
-   height:1000px;
+#services-container::before {
+    height: 1000px;
 }
 
 
-#services{
+#services {
     flex-direction: column;
 }
 
-.services-container h1{
+.services-container h1 {
     font-size: 40px;
-    margin-top:40px;
-    margin-bottom:60px;
-    font-size:40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 40px;
 }
 
-.services-container::before{
-    background:none;
+.services-container::before {
+    background: none;
 }
 
-.box h2{
-    font-size:30px;
-    padding-top:20px;
-}
-.box p{
-    font-size:15px;
+.box h2 {
+    font-size: 30px;
+    padding-top: 20px;
 }
 
-#services .box img{
-   width:75%;
-   height:75%;
+.box p {
+    font-size: 15px;
 }
 
-#services .box{
-    margin-left:0px;
-    margin-right:0px;
+#services .box img {
+    width: 75%;
+    height: 75%;
+}
+
+#services .box {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /* client section */
 
-#clients{
-    flex-direction:row-reverse;
-    flex-wrap:wrap;
-    padding:0;
+#clients {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
-#clients img{
+#clients img {
     transform: scale(0.6);
 }
 
-#clients a{
-    padding:0;
+#clients a {
+    padding: 0;
 }
 
-.client-item{
-    padding:0 10px 0 0px;
+.client-item {
+    padding: 0 10px 0 0px;
 }
 
-#client-section{
-    height:170px;
+#client-section {
+    height: 170px;
 }
 
-#client-section::before{
-    height:421px;
-    opacity:0.7;
+#client-section::before {
+    height: 421px;
+    opacity: 0.7;
 }
 
-#client-section h1{
-    font-size:30px;
-    margin-bottom:55px;
-    padding-top:46px;
-    border-radius: 13px; 
-    padding-left:39px;
+#client-section h1 {
+    font-size: 30px;
+    margin-bottom: 55px;
+    padding-top: 46px;
+    border-radius: 13px;
+    padding-left: 39px;
 }
+
 /* contact us */
 
-#contact h1{
-    font-size:30px;
-    margin-top:50px;
+#contact h1 {
+    font-size: 30px;
+    margin-top: 50px;
 }
 
-#contact-box label{
-    font-size:20px;
+#contact-box label {
+    font-size: 20px;
 }
 
-#contact-box input, #contact-box textarea{
-    font-size:15px;
-    width:100%;
-    padding:4px 10px;
+#contact-box input, #contact-box textarea {
+    font-size: 15px;
+    width: 100%;
+    padding: 4px 10px;
 }
 
-#contact-box form{
-    width:50%;
+#contact-box form {
+    width: 50%;
 }
 
-.conbtn{
-    font-size:16px;
-    width:75%;
+.conbtn {
+    font-size: 16px;
+    width: 75%;
 }
 
-#contact::before{
-    height:90%;
-    top:76px
+#contact::before {
+    height: 90%;
+    top: 76px
 }
 
 /* footer */
 
-footer{
+footer {
     text-align: center;
-    padding-right:35px;
+    padding-right: 35px;
 }
 
 /* hover cancel */
 
-#navbar ul li a:hover{
-    color:white;
-    transform:scale(1);
+#navbar ul li a:hover {
+    color: white;
+    transform: scale(1);
     background-color: transparent;
 }
 
-#home button:hover{
+#home button:hover {
     background-color: brown;
-    cursor:pointer;
-    border-color:white;
-    color:white;
+    cursor: pointer;
+    border-color: white;
+    color: white;
 }
 
-#clients img:hover{
-    transform:scale(0.6);
+#clients img:hover {
+    transform: scale(0.6);
 }
 
-#c1:hover{
-   filter:drop-shadow(0px 0px 0px transparent);
-}
-#c2:hover{
-    filter:drop-shadow(0px 0px 0px transparent);
-}
-#kfc:hover{
-    filter:drop-shadow(0px 0px 0px transparent);
-}
-#c4:hover{
-    filter:drop-shadow(0px 0px 0px transparent);
+#c1:hover {
+    filter: drop-shadow(0px 0px 0px transparent);
 }
 
-.conbtn:hover{
+#c2:hover {
+    filter: drop-shadow(0px 0px 0px transparent);
+}
+
+#kfc:hover {
+    filter: drop-shadow(0px 0px 0px transparent);
+}
+
+#c4:hover {
+    filter: drop-shadow(0px 0px 0px transparent);
+}
+
+.conbtn:hover {
     background-color: brown;
-    cursor:pointer;
-    border-color:white;
-    color:white;
+    cursor: pointer;
+    border-color: white;
+    color: white;
 }
-
-
-
